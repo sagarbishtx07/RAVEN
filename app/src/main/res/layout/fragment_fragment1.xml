@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:id="@+id/card1"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        android:background="@drawable/card"
+        android:elevation="5dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="20dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p1" />
+
+        <TextView
+            android:id="@+id/chat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="30dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="80dp"
+        android:background="@drawable/card"
+        android:layout_marginTop="10dp"
+        app:cardElevation="55dp"
+        app:cardCornerRadius="24dp"
+        >
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_height="60dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/p2" />
+
+        <TextView
+            android:id="@+id/chat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Itachi Uchiha"
+            android:textColor="#070000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/subchat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="32dp"
+            android:text="Going to leaf village to check...."
+            android:textColor="#012E2E" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
